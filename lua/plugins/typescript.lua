@@ -15,7 +15,8 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     opts = {
-      ensure_installed = { "tsserver" }, -- automatically install lsp
+      -- https://github.com/williamboman/mason-lspconfig.nvim
+      ensure_installed = { "ts_ls" }, -- automatically install lsp
     },
   },
 }
