@@ -10,6 +10,12 @@ return {
     "theHamsta/nvim-dap-virtual-text",
     opts = {},
   },
+  {
+    "benomahony/uv.nvim",
+    opts = {
+      picker_integration = true,
+    },
+  },
   -- {
   --   "girishji/pythondoc.vim",
   --   opts = {},
