@@ -16,10 +16,6 @@ return {
       picker_integration = true,
     },
   },
-  -- {
-  --   "girishji/pythondoc.vim",
-  --   opts = {},
-  -- },
   -- == Examples of Adding Plugins ==
   -- "andweeb/presence.nvim",
   -- {
