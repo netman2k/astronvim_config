@@ -22,7 +22,7 @@ return {
       request = "launch",
       name = "Django: runserver",
       program = "${workspaceFolder}/manage.py",
-      args = { "runserver", "--noreload" },
+      args = { "runserver", "--noreload", "9000" },
       django = true,
       justMyCode = false, -- lets you step into DRF / site-packages code
     })
